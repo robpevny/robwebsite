@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { ArrowLeft } from "lucide-react";
-import robPhoto from "../../assets/rob.JPG";
+import robPhoto from "../../assets/rob.jpg";
 
 export default function About() {
   return (
