@@ -34,7 +34,7 @@ const groups = [
       {
         name: "Trail Sports Canmore",
         description: "Local gear, rentals, and all things trail",
-        href: "#",
+        href: "https://trailsports.com",
       },
     ],
   },
