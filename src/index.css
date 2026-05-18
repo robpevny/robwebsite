@@ -27,6 +27,12 @@ h3 {
   font-weight: 600;
 }
 
+@media (max-width: 450px) {
+  .summer-mobile-bg {
+    background-position: calc(50% + 75px) 60% !important;
+  }
+}
+
 @media (min-width: 640px) and (max-width: 768px) {
   .summer-diagonal-bg {
     background-position: calc(50% + 80px) calc(50% - 50px) !important;

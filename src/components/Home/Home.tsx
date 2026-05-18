@@ -27,7 +27,7 @@ export default function Home() {
       <div className="absolute inset-0 flex flex-col sm:hidden">
         <Link to="/summer" className="flex-1 relative overflow-hidden group">
           <div
-            className="absolute inset-0 bg-cover transition-all duration-500 group-hover:brightness-110"
+            className="summer-mobile-bg absolute inset-0 bg-cover transition-all duration-500 group-hover:brightness-110"
             style={{
               backgroundImage: `linear-gradient(rgba(255, 200, 100, 0.2), rgba(255, 200, 100, 0.1)), url('${summerBike}')`,
               backgroundPosition: "50% 60%",
