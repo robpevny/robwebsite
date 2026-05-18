@@ -15,7 +15,7 @@ export default function Home() {
           "name": "Robert Pevny",
           "jobTitle": "Sports Coach",
           "description": "Personalized coaching in mountain biking and cross-country skiing.",
-          "url": "https://robpevny.com",
+          "url": "https://learnwithrob.net",
           "sameAs": []
         })}</script>
       </Helmet>
@@ -75,14 +75,14 @@ export default function Home() {
 
       <footer className="absolute bottom-0 left-0 right-0 z-20 p-12 bg-gradient-to-t from-black/40 to-transparent">
         <div className="flex justify-center gap-8 text-white/80">
-          <Link to="/" className="hover:text-white transition-colors">
+          <Link to="/about" className="hover:text-white transition-colors">
             About
           </Link>
           <Link to="/book" className="hover:text-white transition-colors">
             Book a Coaching Session
           </Link>
-          <Link to="/" className="hover:text-white transition-colors">
-            Contact
+          <Link to="/links" className="hover:text-white transition-colors">
+            Useful Links
           </Link>
         </div>
       </footer>

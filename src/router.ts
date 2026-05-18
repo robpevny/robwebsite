@@ -12,12 +12,18 @@ import Waxing from "./components/Winter/Waxing";
 import Book from "./components/Book/Book";
 import Classic from "./components/Winter/Classic";
 import Skate from "./components/Winter/Skate";
+import About from "./components/About/About";
+import Links from "./components/Links/Links";
 import NotFound from "./components/NotFound";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Home,
+  },
+  {
+    path: "/about",
+    Component: About,
   },
   {
     path: "/summer",
@@ -62,6 +68,10 @@ export const router = createBrowserRouter([
   {
     path: "/book",
     Component: Book,
+  },
+  {
+    path: "/links",
+    Component: Links,
   },
   {
     path: "*",
