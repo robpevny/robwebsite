@@ -18,22 +18,22 @@ export default function About() {
           >
             <ArrowLeft size={32} />
           </Link>
-          <h1 className="text-5xl text-gray-800 font-nunito">About Me</h1>
+          <h1 className="text-2xl sm:text-5xl text-gray-800 font-nunito">About Me</h1>
         </div>
       </header>
 
       <div className="absolute inset-0 pt-32 pb-24 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-8 space-y-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-8 space-y-8">
 
           <img
             src={robPhoto}
             alt="Rob Pevny"
-            className="w-full max-h-[650px] object-cover rounded-2xl shadow-md"
+            className="w-full max-h-[280px] sm:max-h-[650px] object-cover rounded-2xl shadow-md"
             style={{ objectPosition: "center calc(50% + 40px)" }}
           />
 
           <div className="space-y-2">
-            <h2 className="text-4xl font-bold text-gray-800">Rob Pevny</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold text-gray-800">Rob Pevny</h2>
             <p className="text-lg text-gray-600">Canmore, Alberta &mdash; originally from the Czech Republic</p>
             <div className="flex flex-col gap-1 pt-2">
               <span className="inline-flex items-center gap-2 text-sm font-semibold text-orange-700 bg-orange-100 rounded-full px-3 py-1 w-fit">

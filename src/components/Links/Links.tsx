@@ -65,12 +65,12 @@ export default function Links() {
           >
             <ArrowLeft size={32} />
           </Link>
-          <h1 className="text-5xl text-gray-800 font-nunito">Useful Links</h1>
+          <h1 className="text-2xl sm:text-5xl text-gray-800 font-nunito">Useful Links</h1>
         </div>
       </header>
 
       <div className="absolute inset-0 pt-32 pb-24 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-8 space-y-10">
+        <div className="max-w-3xl mx-auto px-4 sm:px-8 space-y-10">
           {groups.map((group) => (
             <div key={group.heading}>
               <h2 className="text-xl font-bold text-gray-500 uppercase tracking-widest mb-4">

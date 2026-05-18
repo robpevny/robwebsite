@@ -17,29 +17,29 @@ export default function Steeps() {
           >
             <ArrowLeft size={32} />
           </Link>
-          <h1 className="text-5xl text-gray-800 font-nunito">Steeps</h1>
+          <h1 className="text-2xl sm:text-5xl text-gray-800 font-nunito">Steeps</h1>
         </div>
       </header>
 
       <div className="absolute inset-0 pt-32 pb-24 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-8 space-y-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-8 space-y-8">
 
           <div>
-            <h2 className="text-4xl font-bold text-orange-600 mb-4">Using Your Brakes</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold text-orange-600 mb-4">Using Your Brakes</h2>
             <p className="text-xl text-gray-700 leading-relaxed">
               Steeps have a way of separating riders who feel in control from those who are just surviving. The pitch increases, speed builds fast, and suddenly everything feels harder to manage. The difference between these two experiences almost always comes down to one thing: how well you use your brakes. Not whether you use them. <em>How.</em>
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What Braking Is Actually About</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What Braking Is Actually About</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               Most riders think of braking as "slowing down." But on steep terrain, braking is about something bigger: <strong>speed control</strong> — which includes slowing down, yes, but also <em>not speeding up</em> in the first place, and maintaining a consistent, manageable pace through technical sections. When you're in control of your speed, everything else gets easier. Your position improves. Your line choice opens up. Your confidence goes up. Braking well is the unlock to riding steeps comfortably.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">How to Apply the Brakes</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">How to Apply the Brakes</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">There are three words that describe good braking technique:</p>
             <div className="space-y-4">
               <div className="bg-white/50 rounded-xl p-5">
@@ -58,7 +58,7 @@ export default function Steeps() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Front Brake vs. Rear Brake</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Front Brake vs. Rear Brake</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               <strong>The front brake is your power brake.</strong> As you slow down, your weight naturally shifts forward, pressing the front wheel harder into the ground. More weight = more traction = more stopping power. The front brake can slow you down significantly and is your go-to for genuine speed reduction on steeps.
             </p>
@@ -71,14 +71,14 @@ export default function Steeps() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Body Position When Braking</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Body Position When Braking</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               Heavy braking changes where your weight wants to go — forward, toward the bars. Left unchecked, this tips you toward an over-the-bars situation and lifts the rear wheel off the ground. The counter is to <strong>brace and get low.</strong> Drop your heels, bend your arms, and resist the forward shift with your whole body. Your hips move slightly back, but not so far that you lose weight on the front wheel — you need that traction. A strong, low, centred position under braking is what keeps both wheels working and keeps you in control. This is why body position and braking are inseparable skills. One makes the other possible.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Selective Braking</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Selective Braking</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Here's the key insight that changes how riders approach steeps: <strong>braking has costs.</strong> When the brakes are on, suspension works less effectively, traction can reduce (especially in corners), and your arms and legs tighten up. On rough terrain, braking can actually make things harder to navigate.
             </p>
@@ -91,7 +91,7 @@ export default function Steeps() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
             <div className="space-y-4">
               <div className="bg-white/50 rounded-xl p-5">
                 <p className="font-semibold text-gray-800 mb-2">Newer to riding</p>

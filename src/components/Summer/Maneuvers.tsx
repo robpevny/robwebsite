@@ -17,22 +17,22 @@ export default function Maneuvers() {
           >
             <ArrowLeft size={32} />
           </Link>
-          <h1 className="text-5xl text-gray-800 font-nunito">Maneuvers</h1>
+          <h1 className="text-2xl sm:text-5xl text-gray-800 font-nunito">Maneuvers</h1>
         </div>
       </header>
 
       <div className="absolute inset-0 pt-32 pb-24 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-8 space-y-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-8 space-y-8">
 
           <div>
-            <h2 className="text-4xl font-bold text-orange-600 mb-4">Basic Bike Maneuvers</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold text-orange-600 mb-4">Basic Bike Maneuvers</h2>
             <p className="text-xl text-gray-700 leading-relaxed">
               There's a point in every rider's progression where the fundamentals are solid and a new question appears: <em>what can I actually do with this bike?</em> That's where maneuvers come in. Wheel lifts. Rear wheel lifts. Basic hops. These aren't tricks for the bike park crowd — they're practical tools that make you a more versatile, capable rider on any trail.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Skills vs. Maneuvers — Why It Matters</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Skills vs. Maneuvers — Why It Matters</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               <strong>Skills</strong> are the fundamental components of riding: balance, controls, terrain awareness, direction control, pressure control, timing. They're present in every single thing you do on a bike.
             </p>
@@ -45,7 +45,7 @@ export default function Maneuvers() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Front Wheel Lifts</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Front Wheel Lifts</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Lifting the front wheel is one of the most useful moves in mountain biking. Roll over obstacles more smoothly. Pop over roots and rocks instead of getting deflected. Set up for drops and jumps. Once you have it, you'll use it constantly without even thinking.
             </p>
@@ -67,7 +67,7 @@ export default function Maneuvers() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Rear Wheel Lifts</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Rear Wheel Lifts</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Where front wheel lifts are about pressure and drive, rear wheel lifts are about unweighting — getting light on the back of the bike and allowing the rear wheel to come up.
             </p>
@@ -88,7 +88,7 @@ export default function Maneuvers() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Putting It Together: The Foundation of a Bunnyhop</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Putting It Together: The Foundation of a Bunnyhop</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Once front and rear wheel lifts are feeling consistent, you have the raw ingredients of a bunnyhop — the ability to lift both wheels off the ground in sequence to clear an obstacle.
             </p>
@@ -98,7 +98,7 @@ export default function Maneuvers() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">How to Learn Maneuvers Safely</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">How to Learn Maneuvers Safely</h3>
             <div className="space-y-4">
               <div className="bg-white/50 rounded-xl p-5">
                 <p className="font-semibold text-gray-800 mb-2">Use open areas</p>
@@ -120,7 +120,7 @@ export default function Maneuvers() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What These Moves Unlock</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What These Moves Unlock</h3>
             <ul className="list-disc list-inside space-y-2 text-lg text-gray-700">
               <li><strong>More line options.</strong> You can roll over things you'd previously have to go around, opening up the trail in front of you.</li>
               <li><strong>Better flow.</strong> Instead of reacting to every obstacle, you start anticipating and navigating proactively.</li>
@@ -130,7 +130,7 @@ export default function Maneuvers() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
             <div className="space-y-4">
               <div className="bg-white/50 rounded-xl p-5">
                 <p className="font-semibold text-gray-800 mb-2">Newer to riding</p>

@@ -19,8 +19,8 @@ export default function Home() {
           "sameAs": []
         })}</script>
       </Helmet>
-      <header className="absolute top-0 left-0 right-0 z-20 p-8 bg-gradient-to-b from-black/40 to-transparent">
-        <h1 className="text-3xl text-white text-center">Learn MTB and XC skiing with Rob</h1>
+      <header className="absolute top-0 left-0 right-0 z-20 p-4 sm:p-8 bg-gradient-to-b from-black/40 to-transparent">
+        <h1 className="text-lg sm:text-3xl text-white text-center">Learn MTB and XC skiing with Rob</h1>
       </header>
 
       <div className="absolute inset-0">
@@ -33,11 +33,11 @@ export default function Home() {
               clipPath: "polygon(0 0, 100% 0, 0 100%)",
             }}
           >
-            <div className="absolute top-40 left-8 -translate-y-1/2">
-              <h2 className="text-5xl font-bold text-white drop-shadow-lg">
+            <div className="absolute top-24 sm:top-40 left-4 sm:left-8 -translate-y-1/2">
+              <h2 className="text-3xl sm:text-5xl font-bold text-white drop-shadow-lg">
                 Summer
               </h2>
-              <p className="text-xl text-white/90 mt-2 drop-shadow-md">
+              <p className="text-base sm:text-xl text-white/90 mt-2 drop-shadow-md">
                 Adventure awaits
               </p>
             </div>
@@ -53,11 +53,11 @@ export default function Home() {
               clipPath: "polygon(100% 0, 100% 100%, 0 100%)",
             }}
           >
-            <div className="absolute bottom-32 right-8 -translate-y-1/2">
-              <h2 className="text-5xl font-bold text-white drop-shadow-lg">
+            <div className="absolute bottom-24 sm:bottom-32 right-4 sm:right-8 -translate-y-1/2">
+              <h2 className="text-3xl sm:text-5xl font-bold text-white drop-shadow-lg">
                 Winter
               </h2>
-              <p className="text-xl text-white/90 mt-2 drop-shadow-md">
+              <p className="text-base sm:text-xl text-white/90 mt-2 drop-shadow-md">
                 Embrace the cold
               </p>
             </div>
@@ -73,8 +73,8 @@ export default function Home() {
         />
       </div>
 
-      <footer className="absolute bottom-0 left-0 right-0 z-20 p-12 bg-gradient-to-t from-black/40 to-transparent">
-        <div className="flex justify-center gap-8 text-white/80">
+      <footer className="absolute bottom-0 left-0 right-0 z-20 p-6 sm:p-12 bg-gradient-to-t from-black/40 to-transparent">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-white/80">
           <Link to="/about" className="hover:text-white transition-colors">
             About
           </Link>

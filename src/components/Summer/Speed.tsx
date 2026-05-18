@@ -17,29 +17,29 @@ export default function Speed() {
           >
             <ArrowLeft size={32} />
           </Link>
-          <h1 className="text-5xl text-gray-800 font-nunito">Speed</h1>
+          <h1 className="text-2xl sm:text-5xl text-gray-800 font-nunito">Speed</h1>
         </div>
       </header>
 
       <div className="absolute inset-0 pt-32 pb-24 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-8 space-y-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-8 space-y-8">
 
           <div>
-            <h2 className="text-4xl font-bold text-orange-600 mb-4">Cornering</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold text-orange-600 mb-4">Cornering</h2>
             <p className="text-xl text-gray-700 leading-relaxed">
               Cornering is where riding gets addictive. Rail a berm perfectly, carry speed out of a switchback, link turns together with real flow — it's one of the best feelings in mountain biking. It's also one of the most skill-dependent parts of riding, which means it's one of the best areas to improve. The good news: cornering isn't just about going faster. It's about having more control at whatever speed you're riding. Get the fundamentals right and the speed will come naturally.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What's Actually Happening in a Corner</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What's Actually Happening in a Corner</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               When you ride through a corner, two main forces are acting on you. <strong>Gravity</strong> is pulling you straight down. <strong>Centrifugal force</strong> is pushing you to the outside of the turn. The faster you go and the tighter the corner, the stronger that outward push feels. To stay balanced through the corner, you need to lean into it — angling your body against that outward force so you stay centred and in control. Too little lean and you get pushed wide. Too much lean at slow speeds and you tip over. Getting that lean angle right for your speed and the corner radius is the core challenge of cornering.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">The Three Components of Direction Control</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">The Three Components of Direction Control</h3>
             <div className="space-y-4">
               <div className="bg-white/50 rounded-xl p-5">
                 <p className="font-semibold text-gray-800 mb-2">Steering</p>
@@ -59,7 +59,7 @@ export default function Speed() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Flat Corners vs. Berms</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Flat Corners vs. Berms</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               <strong>Flat corners</strong> are the most common type on natural trails, and the most demanding. There's no bank to support the tires, so centrifugal force is constantly trying to push them sideways. Angulation becomes crucial here — leaning the bike underneath you keeps your weight over the contact patches and gives the tires the best chance of gripping.
             </p>
@@ -69,7 +69,7 @@ export default function Speed() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Look Where You're Going</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Look Where You're Going</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Terrain awareness is inseparable from cornering. The earlier you can see the exit of a corner, the sooner you can plan your line, the smoother your turn will be.
             </p>
@@ -82,14 +82,14 @@ export default function Speed() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Speed as a Teaching Tool</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Speed as a Teaching Tool</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               Here's something counterintuitive: sometimes a little more speed actually makes cornering easier. Slow speeds mean less centrifugal force, which means less to lean against — which makes balancing through the corner harder. Finding the right speed for a given corner is part of the skill. That said, speed should always be introduced <em>gradually</em> and only after technique is dialled. Faster speeds change the timing of everything. What worked at a slow pace needs to be recalibrated when you increase your speed — lean angles, entry points, exit lines all shift. Increase one variable at a time, and technique always comes first.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
             <div className="space-y-4">
               <div className="bg-white/50 rounded-xl p-5">
                 <p className="font-semibold text-gray-800 mb-2">Newer to riding</p>

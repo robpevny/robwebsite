@@ -17,22 +17,22 @@ export default function Balance() {
           >
             <ArrowLeft size={32} />
           </Link>
-          <h1 className="text-5xl text-gray-800 font-nunito">Balance</h1>
+          <h1 className="text-2xl sm:text-5xl text-gray-800 font-nunito">Balance</h1>
         </div>
       </header>
 
       <div className="absolute inset-0 pt-32 pb-24 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-8 space-y-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-8 space-y-8">
 
           <div>
-            <h2 className="text-4xl font-bold text-orange-600 mb-4">Body Position</h2>
+            <h2 className="text-2xl sm:text-4xl font-bold text-orange-600 mb-4">Body Position</h2>
             <p className="text-xl text-gray-700 leading-relaxed">
               You can have the best bike on the mountain. Brand new components. Perfect suspension setup. But if your body position is off, none of it matters. Balance is the foundation every other skill is built on — and it's the one skill that pays dividends across <em>every</em> type of riding you'll ever do.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What Is Balance, Really?</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What Is Balance, Really?</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Balance on a mountain bike is actually two things working together.
             </p>
@@ -45,7 +45,7 @@ export default function Balance() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">The Two Key Positions</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">The Two Key Positions</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               <strong>Neutral Stance</strong> is your default — a taller, more relaxed position that conserves energy and keeps your bones stacked efficiently. It's where you ride when the trail is straightforward and demands are lower. Less tiring, but it gives you less room to react.
             </p>
@@ -58,14 +58,14 @@ export default function Balance() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Centred Is Everything</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Centred Is Everything</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               The single most important concept in body position is staying centred. Chin roughly over the stem. Hips over the bottom bracket. Weight balanced across both wheels. When your weight shifts too far back, you lose front wheel traction and braking power. Too far forward and you risk going over the bars. Centred keeps both tires working, keeps your options open, and keeps you in <em>driving mode</em> — actively controlling the bike — rather than recovery mode, where you're just trying not to fall off.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">Why This Makes Everything Else Better</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">Why This Makes Everything Else Better</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">Improve your balance and body position and watch what happens to the rest of your riding:</p>
             <ul className="list-disc list-inside space-y-2 text-lg text-gray-700 mb-4">
               <li>Corners become more confident — you have the stability to lean the bike properly</li>
@@ -80,7 +80,7 @@ export default function Balance() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-3">What to Work On</h3>
             <div className="space-y-4">
               <div className="bg-white/50 rounded-xl p-5">
                 <p className="font-semibold text-gray-800 mb-2">Newer to riding</p>
