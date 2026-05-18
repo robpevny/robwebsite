@@ -33,9 +33,9 @@ export default function Home() {
               backgroundPosition: "50% 60%",
             }}
           />
-          <div className="absolute bottom-6 left-6">
-            <h2 className="text-3xl font-bold text-white drop-shadow-lg">Summer</h2>
-            <p className="text-base text-white/90 mt-1 drop-shadow-md">Adventure awaits</p>
+          <div className="absolute bottom-6 right-6 text-right">
+            <h2 className="text-xl font-bold text-white drop-shadow-lg">Summer</h2>
+            <p className="text-sm text-white/90 mt-1 drop-shadow-md">Adventure awaits</p>
           </div>
         </Link>
 
@@ -49,9 +49,9 @@ export default function Home() {
               backgroundPosition: "50% 40%",
             }}
           />
-          <div className="absolute top-6 right-6 text-right">
-            <h2 className="text-3xl font-bold text-white drop-shadow-lg">Winter</h2>
-            <p className="text-base text-white/90 mt-1 drop-shadow-md">Embrace the cold</p>
+          <div className="absolute top-6 left-6">
+            <h2 className="text-xl font-bold text-white drop-shadow-lg">Winter</h2>
+            <p className="text-sm text-white/90 mt-1 drop-shadow-md">Embrace the cold</p>
           </div>
         </Link>
       </div>
@@ -60,7 +60,7 @@ export default function Home() {
       <div className="absolute inset-0 hidden sm:block">
         <Link to="/summer">
           <div
-            className="absolute inset-0 bg-cover transition-all duration-500 hover:brightness-110 hover:scale-[1.02] cursor-pointer"
+            className="summer-diagonal-bg absolute inset-0 bg-cover transition-all duration-500 hover:brightness-110 hover:scale-[1.02] cursor-pointer"
             style={{
               backgroundImage: `linear-gradient(rgba(255, 200, 100, 0.2), rgba(255, 200, 100, 0.1)), url('${summerBike}')`,
               backgroundPosition: "calc(50% - 20px) calc(50% - 50px)",
@@ -68,15 +68,15 @@ export default function Home() {
             }}
           >
             <div className="absolute top-40 left-8 -translate-y-1/2">
-              <h2 className="text-5xl font-bold text-white drop-shadow-lg">Summer</h2>
-              <p className="text-xl text-white/90 mt-2 drop-shadow-md">Adventure awaits</p>
+              <h2 className="sm:text-3xl md:text-5xl font-bold text-white drop-shadow-lg">Summer</h2>
+              <p className="sm:text-base md:text-xl text-white/90 mt-2 drop-shadow-md">Adventure awaits</p>
             </div>
           </div>
         </Link>
 
         <Link to="/winter">
           <div
-            className="absolute inset-0 bg-cover transition-all duration-500 hover:brightness-110 hover:scale-[1.02] cursor-pointer"
+            className="winter-diagonal-bg absolute inset-0 bg-cover transition-all duration-500 hover:brightness-110 hover:scale-[1.02] cursor-pointer"
             style={{
               backgroundImage: `linear-gradient(rgba(100, 150, 255, 0.2), rgba(100, 150, 255, 0.1)), url('${winterSki}')`,
               backgroundPosition: "50% calc(50% + 100px)",
@@ -84,8 +84,8 @@ export default function Home() {
             }}
           >
             <div className="absolute bottom-32 right-8 -translate-y-1/2">
-              <h2 className="text-5xl font-bold text-white drop-shadow-lg">Winter</h2>
-              <p className="text-xl text-white/90 mt-2 drop-shadow-md">Embrace the cold</p>
+              <h2 className="sm:text-3xl md:text-5xl font-bold text-white drop-shadow-lg">Winter</h2>
+              <p className="sm:text-base md:text-xl text-white/90 mt-2 drop-shadow-md">Embrace the cold</p>
             </div>
           </div>
         </Link>

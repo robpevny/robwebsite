@@ -26,3 +26,21 @@ h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .summer-diagonal-bg {
+    background-position: calc(50% + 80px) calc(50% - 50px) !important;
+  }
+  .winter-diagonal-bg {
+    background-position: calc(50% - 100px) calc(50% + 100px) !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .summer-diagonal-bg {
+    background-position: calc(50% + 80px) calc(50% - 50px) !important;
+  }
+  .winter-diagonal-bg {
+    background-position: calc(50% - 100px) calc(50% + 100px) !important;
+  }
+}
