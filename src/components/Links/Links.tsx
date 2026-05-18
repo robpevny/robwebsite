@@ -18,7 +18,7 @@ const groups = [
       },
       {
         name: "GSMBC",
-        description: "Get Some Mountain Bike Coaching",
+        description: "Global Syndicate of Mountain Bike Coaches",
         href: "https://www.gsmbc.pro/",
       },
     ],
