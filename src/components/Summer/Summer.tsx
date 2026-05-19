@@ -28,7 +28,7 @@ export default function Summer() {
       <div className="absolute inset-0 pt-24 sm:pt-32 pb-24 overflow-y-auto">
         <div className="max-w-6xl mx-auto px-4 sm:px-8">
           {/* Skills Square Box */}
-          <div className="w-full aspect-square bg-white/60 backdrop-blur-sm rounded-2xl shadow-2xl grid grid-cols-2 grid-rows-2 gap-2 sm:gap-4 p-2 sm:p-4">
+          <div className="w-full aspect-square max-[425px]:aspect-auto bg-white/60 backdrop-blur-sm rounded-2xl shadow-2xl grid grid-cols-2 max-[425px]:grid-cols-1 grid-rows-2 max-[425px]:grid-rows-4 gap-2 sm:gap-4 p-2 sm:p-4">
             {/* Balance - Top Left */}
             <Link
               to="/summer/balance"
