@@ -90,13 +90,9 @@ export default function Home() {
           </div>
         </Link>
 
-        <div
-          className="absolute top-0 right-0 w-1 h-[141.42%] bg-white/80 shadow-2xl"
-          style={{
-            transformOrigin: "top right",
-            transform: "rotate(-45deg) translateX(-50%)",
-          }}
-        />
+        <svg className="absolute inset-0 w-full h-full z-10 pointer-events-none" preserveAspectRatio="none">
+          <line x1="100%" y1="0" x2="0" y2="100%" stroke="white" strokeWidth="3" />
+        </svg>
       </div>
 
       <footer className="absolute bottom-0 left-0 right-0 z-20 p-6 sm:p-12 bg-gradient-to-t from-black/40 to-transparent">
